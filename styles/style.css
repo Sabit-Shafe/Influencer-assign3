@@ -194,12 +194,13 @@ main {
   }
   .joinme-details input,
   textarea {
-    padding: 10px 20px;
+    
     font-family: 'Roboto Slab', serif;
     margin: 10px 0;
     text-align: left;
-    border: 1.5px solid #910f7f;
+    border: 2px solid #910f7f;
     outline: none;
+    padding: 10px 20px;
     border-radius: 3px;
   }
   
@@ -217,9 +218,9 @@ main {
     background-color: transparent;
     color: #e02c6d;
     font-weight: 700;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
     cursor: pointer;
-    margin-top: 24px;
+    margin-top: 25px;
     padding: 0 30px;
     border: none;
     text-decoration: none;
@@ -280,28 +281,33 @@ footer {
 @media only screen and (max-width: 865px) {
     .influencer-container {
       flex-direction: column-reverse;
+      margin: 0 auto;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      
     }
     .influencer-image {
-      width: 25%;
+      /* width: 25%; */
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .influencer-image img{
+         width: 80%; 
     }
     .influencer-info {
       flex-wrap: wrap;
     }
     .partner-container {
       display: flex;
-      gap: 20px;
+      gap: 18px;
       flex-wrap: wrap;
     }
     .product-container {
-      grid-template-columns: repeat(1, 0.7fr);
-      justify-content: center;
-      align-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1, 0.7fr);
+
     }
     .joinme-image {
       display: none;
