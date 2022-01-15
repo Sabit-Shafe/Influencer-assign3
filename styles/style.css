@@ -284,7 +284,7 @@ footer {
       flex-wrap: wrap;
     }
     .product-container {
-      grid-template-columns: repeat(1, 0.7fr);
+      grid-template-columns: repeat(1, 1fr);
       justify-content: center;
       align-items: center;
     }
